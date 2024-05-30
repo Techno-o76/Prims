@@ -48,7 +48,7 @@ bool solve(long double p, long double a, long double b,vector<long double>&Chakr
             }
             
             // recharge before fight
-            q.push({indx+1,p-Chakravyuha[indx],canSkipFights,numberOfRechargesLeft-1,indx});
+            q.push({indx+1,p-curAttack,canSkipFights,numberOfRechargesLeft-1,indx});
         }
     }
     
